@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+
+# Virtual environments
+venvs/
+venv/
+.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+coverage.xml
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data, models, outputs
+cache/
+outputs/
+tmp/
+models/
+*.pth
+*.pt
+
+# Logs
+*.log
+
+# Large data files (untracked by default)
+*.jsonl
+*.json
+
+# Ignore nested git repositories / submodules
+gfm-hybrid-hypergraph/
+gfm-rag-upstream-audit/
+hypergraph-rag-prototype/
+official_qa_sources/*_repo/
+
